@@ -132,7 +132,7 @@ class _LoginPageState extends State<LoginPage> {
                 // sign in button
                 MyButton(
                   onTap: signUserIn,
-                  text: "Sign in",
+                  text: "Sign",
                 ),
           
                 const SizedBox(height: 50),
@@ -167,14 +167,8 @@ class _LoginPageState extends State<LoginPage> {
           
                 const SizedBox(height: 50),
           
-                // google + apple sign in buttons
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
-                    // google button
-                    SquareTile(imagePath: 'lib/images/google.png'),
-                  ],
-                ),
+                
+                
           
                 const SizedBox(height: 50),
           
